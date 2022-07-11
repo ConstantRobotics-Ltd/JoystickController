@@ -14,7 +14,7 @@ project(JoystickController LANGUAGES CXX)
 ## CONFIGURATION
 ## project configuration
 ###############################################################################
-SET(${PARENT}_JOYSTICK_CONTROLLER_EXAMPLE              ON  CACHE BOOL "" FORCE)
+SET(${PARENT}_JOYSTICK_CONTROLLER_EXAMPLE   ON  CACHE BOOL "" ${REWRITE_FORCE})
 
 
 
